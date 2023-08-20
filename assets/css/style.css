@@ -1,0 +1,84 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Sriracha', cursive; */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,800;1,900&family=Sriracha&display=swap');
+
+
+
+:root {
+    --primary-color: #0A1128;
+    --white-color: #FFFFFF;
+    --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+
+header {
+    position: fixed;
+    background-color: var(--white-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav h1{
+    font-size: 2.3rem;
+}
+.logo a{
+    color: var(--primary-color);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    display: block;
+    height: 50px;
+    
+}
+
+
+.conteudo1 {
+    background-image: url(../imgs/main-bg.svg);
+    background-size: cover;
+    height: 100vh;
+}
