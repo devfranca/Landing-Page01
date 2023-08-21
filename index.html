@@ -22,8 +22,8 @@
                 </a>
             </div>
             <ul>
-                <li><a href="#">Intro</a></li>
-                <li><a href="#">Top 3</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#top-3">Top 3</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Contact</a></li>
@@ -39,12 +39,36 @@
         </section>
         <section class="image"></section>
     </main>
-    <section class="top-3">
-        <div class="top-3-content">
+    <section class="intro" id="intro">
+        <div class="intro-content">
+            <div class="menu-spacing"></div>
             <h1>Top 3 Jobs</h1>
             <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
             <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
             <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+    <section class="top-3" id="top-3">
+        <div class="menu-spacing"></div>
+        <div class="top-3-content">
+            <div class="top3-text">
+                <h2>Top 3 Jobs</h2>
+                <p>Here are some recent work.</p>
+            </div>
+            <div class="items-top3">
+                <article>
+                    <h3>First</h3>
+                    <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+                </article>
+                <article>
+                    <h3>Another site</h3>
+                    <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+                </article>
+                <article>
+                    <h3>Third one</h3>
+                    <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                </article>
+            </div>
         </div>
     </section>
 </body>
