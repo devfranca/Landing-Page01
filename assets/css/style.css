@@ -241,3 +241,25 @@ nav ul li a:hover::after {
 .items-top3 p{
     display: block;
 }
+
+.gallery{
+    display: grid;
+    height: 100vh;
+    background-color: var(--white-color);
+    
+}
+
+.grid-gallery-content{
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.grid-gallery{
+    background-color: #dc143c;
+    height: 100px;
+    gap: 3rem;
+}
+
+.grid-gallery:nth-child(2){
+    background-color: blue;
+}
