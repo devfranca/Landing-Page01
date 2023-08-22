@@ -294,3 +294,8 @@ nav ul li a:hover::after {
     background-image: url(../imgs/main-bg.svg);
     height: 100vh;
 }
+
+.pricing{
+    background-color: var(--white-color);
+    min-height: 100vh;
+}
