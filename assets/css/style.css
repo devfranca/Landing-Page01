@@ -25,6 +25,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
+    background-image: url(../imgs/main-bg.svg);
 }
 
 a {
@@ -124,6 +125,8 @@ nav ul li a:hover::after {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .main-1 {
@@ -141,12 +144,13 @@ nav ul li a:hover::after {
     font-size: 2rem;
     width: 40rem;
     line-height: 1.5;
+    
 
 }
 
 .image {
-    width: 80vw;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     background-image: url(../imgs/intro-image.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -298,4 +302,79 @@ nav ul li a:hover::after {
 .pricing{
     background-color: var(--white-color);
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.pricing-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 80vw;
+    max-width: 80vw;
+}
+
+.pricing-content p{
+    font-size: 2.3rem;
+    display: block;
+    text-align: center;
+    max-width: 60%;
+}
+
+.pricing-content h2{
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 2.3rem;
+}
+.table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pricing-table {
+    margin-top: 5rem;
+    border-collapse: collapse;
+    width: 60%;
+    height: 100%;
+    font-size: 2.3rem;
+}
+.pricing-table td{
+        border: 1px solid var(--ligth-gray-color);
+        text-align: left;
+        
+    
+
+}
+
+.pricing-table thead{
+    background-color: var(--ligth-gray-color);
+    font-weight: bolder;
+}
+
+.contact{
+    min-height: 100vh;
+    background-image: url(../imgs/main-bg.svg);
+    color: var(--white-color);
+}
+
+.contact-content{
+    display: flex;
+}
+
+.contact-text{
+    max-width: 50%;
+
+}
+
+.contact-image{
+    max-width: 40%;
+    overflow: hidden;
+  
+
+
+
+
 }
