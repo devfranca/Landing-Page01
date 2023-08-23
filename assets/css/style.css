@@ -362,19 +362,39 @@ nav ul li a:hover::after {
 
 .contact-content{
     display: flex;
+    padding: 4rem;
+    gap: 3rem
+    ;
 }
 
 .contact-text{
-    max-width: 50%;
-
+    max-width: 45%;
+    text-align: center;
+}
+.contact-text p{
+    text-align: justify;
+    font-size: 2.3rem;
 }
 
 .contact-image{
-    max-width: 40%;
-    overflow: hidden;
-  
-
-
-
+   height: 40rem;
+   width: 63rem;
+   background-image: url(../imgs/contact.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
 
 }
+
+.contact-form form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.contact-form legend{
+    display: block;
+}
+
+
