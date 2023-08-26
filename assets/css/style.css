@@ -329,14 +329,16 @@ nav ul li a:hover::after {
         margin-bottom: 2.3rem;
     }
     .responsive-table {
+        margin: 0 auto;
+        padding: 3rem;
         overflow-x: auto;
-        width: 100%;
+        width: 70%;
     }
     
     table {
-        width: 100%;
-        min-width: 360px;
         border-collapse: collapse;
+        min-width: 769px;
+        width: 100%;
     }
     
     table caption {
